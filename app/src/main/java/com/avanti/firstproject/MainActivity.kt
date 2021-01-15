@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(findViewById(R.id.toolbar))
 //i have given an comment  here
         findViewById<FloatingActionButton>(R.id.fab).setOnClickListener { view ->
-            Snackbar.make(view, "click to proceed", Snackbar.LENGTH_LONG)
+            Snackbar.make(view, "write a message", Snackbar.LENGTH_LONG)
                     .setAction("Action", null).show()
         }
     }
